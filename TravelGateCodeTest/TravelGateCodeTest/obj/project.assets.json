@@ -11801,11 +11801,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Fer-Laptop\\source\\repos\\WebApplication1\\WebApplication1\\TravelGateCodeTest.csproj",
+      "projectUniqueName": "C:\\Users\\Fer-Laptop\\Documents\\TravelGate\\TravelGateCodeTest\\TravelGateCodeTest\\TravelGateCodeTest.csproj",
       "projectName": "TravelGateCodeTest",
-      "projectPath": "C:\\Users\\Fer-Laptop\\source\\repos\\WebApplication1\\WebApplication1\\TravelGateCodeTest.csproj",
+      "projectPath": "C:\\Users\\Fer-Laptop\\Documents\\TravelGate\\TravelGateCodeTest\\TravelGateCodeTest\\TravelGateCodeTest.csproj",
       "packagesPath": "C:\\Users\\Fer-Laptop\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Fer-Laptop\\source\\repos\\WebApplication1\\WebApplication1\\obj\\",
+      "outputPath": "C:\\Users\\Fer-Laptop\\Documents\\TravelGate\\TravelGateCodeTest\\TravelGateCodeTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
