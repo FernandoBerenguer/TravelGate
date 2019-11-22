@@ -12,9 +12,9 @@ namespace TravelGateCodeTest.Models
             //do stuffs with the member            
         }
 
-        public Member GetOutJail()
+        public Member GetOutJail(Member member)
         {
-            return new Member();
+            return member;
         }
     }
 }

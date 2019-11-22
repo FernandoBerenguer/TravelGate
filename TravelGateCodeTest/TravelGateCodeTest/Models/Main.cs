@@ -84,7 +84,28 @@ namespace TravelGateCodeTest.Models
             inJail.GetInJail(memberToJail);
             //get a new one to reassing the subordinates
             var reorderSub = memberList.FirstOrDefault(x => x.Seniority.Equals(5));
-            reorderSub.Subordinates.Aggregate(memberToJail.Subordinates.ToString());
+            reorderSub.Subordinates.Add(memberToJail.Subordinates);
+            //simulamos una aplicacion de consola
+            Console.WriteLine(memberList.OrderByDescending(x => x.Seniority));
+
+            // get out a member of the jail
+            inJail.GetOutJail(memberToJail);
+            //get the list order by oldest
+            Console.WriteLine(memberList.OrderByDescending(x => x.Seniority));
+            //get the oldest one
+            var boss = memberList.OrderByDescending(x => x.Seniority).FirstOrDefault();
+            Console.WriteLine(boss.Name);
+            //and got him to jail
+            inJail.GetInJail(boss);
+
+            //get out him of jail
+            inJail.GetOutJail(boss);
+
+
+
+
+
+
         }
     }
 }
